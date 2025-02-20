@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", serif;
+    }
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    }
+.nav_logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    }
+.nav_logo input{
+    width: 256px;
+    height: 36px;
+    background-color: #FC004A;
+    border: transparent;
+    color: white;
+    }
+.nav_logo input ::placeholder{
+    color: white;
+    }
+.locat{
+    position: relative;
+    right: 225px;
+    }
+.head_nav{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-left: 90px;
+    }
+.head_nav a{
+    color: black;
+    }
+.cont{
+    display: flex;
+    justify-content: center;
+    /*margin-bottom: 40px;*/
+    margin-top: 30px;
+    width: 100%;
+    }
+.cont img{
+    width: 1300px;
+    }
+h2{
+    margin-bottom: 30px;
+    margin-left: 280px;
+    }
+.main_top{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 50px;
+    margin-left: 200px;
+    flex-wrap: wrap;
+    /* gap: 50px; */
+    }
+.main_top2{
+    display: flex;
+    gap: 50px;
+    
+    flex-wrap: wrap;
+    }
+.main_top3{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    }
+.main_one{
+    width: 235px;
+    height: 391px;
+    box-shadow: 2px 2px 2px 2px rgb(236,236,236);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    }
+.main_one h3{
+    font-size: 18px;
+    margin-bottom: 30px;
+    }
+.main_one p{
+    font-size: 18.26px;
+    color: #FC004A;
+    }
+.main_one h3, .main_one p{
+    margin-left: 15px;
+    }
+.plus{
+    background-color: #FC004A;
+    border-radius: 15px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    left: 180px;
+    }
+.foot{
+    display: flex;
+    justify-content: space-between;
+    }
+    @media (max-width:1200px) {
+.container{
+        max-width: 1024px;
+    }
+    }
+    @media (max-width:1024px) {
+.container{
+        max-width: 2880px;
+    }
+    }
+    @media (max-width:2880px) {
+.container{
+        max-width: 768px;
+    }
+    }
+    @media (max-width:768px) {
+.container{
+        max-width: 576px;
+    }
+    }
